@@ -1,0 +1,46 @@
+
+html{
+  box-sizing: content-box;
+}
+
+html * {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  background-color: #fff;
+  padding: 22px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header input {
+  outline: none;
+  border: solid 1px #eee;
+  padding: 10px 5px;
+  width: 400px;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  margin-right: 40px;
+}
+
+header .github{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+header .github img{
+  width: 100%;
+}
+
